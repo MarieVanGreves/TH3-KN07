@@ -1,18 +1,20 @@
 import "../NavBar/NavBar.scss"
 import logo from "./../../assets/images/TH3_KN07_LOGO.png"
-import {Link} from "react-router-dom"
+import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
     return (
         <>
-        <div className="generalNav">
+        <nav className="generalNav">
             <div className="divLogo">
+                <Link to="/#">
                 <img className="logoNav" src={logo} alt="Logo en ASCII avec noté THE KNOT" />
+                </Link>
             </div>
             <div className="linkRow">
                 
             </div>
-        </div>
+        </nav>
         </>
     )
 }
