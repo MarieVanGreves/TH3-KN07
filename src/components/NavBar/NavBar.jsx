@@ -1,0 +1,2 @@
+import "../NavBar/NavBar.scss"
+
