@@ -1,1 +1,28 @@
-@import "/src/App.scss"
+@import "/src/App.scss";
+
+.generalNav {
+    width: 100vw;
+    height: 11vh;
+    background-color: $navbg;
+    display: flex;
+    flex-direction: row;
+    margin-top: -26.7rem;
+    color: $fontcolor;
+
+
+}
+
+.logoNav {
+    width: 114px;
+    height: 63px;
+}
+
+.divLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+
+
+
